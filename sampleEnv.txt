@@ -1,0 +1,8 @@
+PORT = 4000
+MONGO_URL = "mongodb://localhost/camera-store"
+BYPASS_PASSWORD = "su@camerastore$123"
+TOKEN_SECRET = 'madewithlovebycamerastorewithnodeexpressserver'
+TOKEN_EXPIRY_DURATION = '2d'
+ACCESS_TOKEN_ALGO = 'HS384'
+
+

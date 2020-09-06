@@ -14,7 +14,6 @@ mongoose
   .connect(process.env.MONGO_URL || "mongodb://localhost/camera-store", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    ssl: true,
   })
   .then(() => console.log("DB Connected Successfully"))
   .catch((err) => console.error(err));

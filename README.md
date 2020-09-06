@@ -7,6 +7,7 @@ This is a Node/Express based rest API server.
 Use the package manager [npm](https://www.npmjs.com/) or [yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) to install this server.
 
 ```bash
+cp ./sampleEnv.txt ./.env
 npm i/yarn
 npm run start/yarn start
 ```
